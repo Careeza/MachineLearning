@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="flex-container" id="menuhtml">
+			<button onclick="selectDifficulty()" id="flappyButton"></button>
+			<button onclick="googleStartGame()" id="googleButton"></button>
+		</div>
+		<ul class="selectDifficulty" id="menuLevel">
+			<li onclick="easyStart()" id = "test" class="difficulty">easy</li>
+			<li onclick="mediumStart()" class="difficulty">medium</li>
+			<li onclick="hardStart()" class="difficulty">hard</li>
+		</ul>
+		<ul id="gameOverMenu">
+			<li id = "gameOver">0</li>
+		</ul>
+		<canvas id="canvas"></canvas>
+		<script src = "flappyBird.js"> </script>
+		<script src = "googleGame.js"> </script>
+	</body>
+</html>

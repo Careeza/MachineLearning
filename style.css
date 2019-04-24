@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.selectDifficulty {
+	display: none;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.difficulty {
+	background: tomato;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+	cursor: pointer;
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+
+#gameOverMenu {
+	display: none;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#gameOver {
+	background: tomato;
+	padding: 0;
+	width: 50vw;
+	height: 50vh;
+	margin-top: 0;
+	line-height: 50vh;
+	color: white;
+	font-weight: bold;
+	font-size: 5em;
+	text-align: center;
+}
+
+.flex-container {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#flappyButton {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url("marioImg.png");
+	padding: 5px;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	width: 200px;
+	height: 150px;
+}
+
+#googleButton {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url("perso.png");
+	padding: 5px;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	width: 200px;
+	height: 150px;
+}
+
+#canvas {
+	display: none;
+	background-size: contain;
+	background-image:url("marioImg.png");
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+	font-family: 'Quicksand';
+	margin: 0;
+}
